@@ -1,5 +1,42 @@
 # LaTeXCheatsheet
 
+## 
+
+| Operador | LaTeX | Significado |
+| --- | --- | --- |
+| $\cdot$ | \cdot | Signo de multiplicacion |
+| $\div$ | \div | |
+| $\frac{a}{b}$ | \frac{a}{b} | Raíz cuadrada |
+| $\sqrt{a}$ | \sqrt{a} | |
+| $\sqrt[n]{a}$ | \sqrt[n]{a} | |
+| $\approx$ | \approx | |
+| $\arccos$ | \arccos | Arco coseno |
+| $\arcsin$ | \arcsin | Arco seno |
+| $\arctan$ | \arctan | Arco tangente |
+| $\cos$ | \cos | Coseno |
+| $\csc$ | \csc | Cosecante |
+| $\cosh$ | \cosh | Coseno hiperbólico |
+| $\ln$ | \ln | Logaritmo natural |
+| $\log$ | \log | Logaritmo |
+| $\sin$ | \sin | Seno |
+| $\tan$ | \tan | Tangente |
+| $\sec$ | \sec | Secante |
+| $\exp$ | \exp | Exponencial |
+
+## Tamano letra
+
+| Ejemplo | LaTeX | Size |
+| --- | --- | --- |
+| $\tiny A$ | \tiny A | -4 |
+| $\scriptsize A$ | \scriptsize A | -3 |
+| $\footnotesize A$ | \footnotesize A | -2 |
+| $\small A$ | \small A | -1 |
+| $\normalsize A$ | \normalsize A | 0 |
+| $\large A$ | \large A | 1 |
+| $\Large A$ | \Large A | 2 |
+| $\LARGE A$ | \LARGE A | 3 |
+| $\huge A$ | \huge A | 4 |
+
 ## Letras griegas minúsculas
 | Letra | LaTeX | Letra | LaTeX |
 | --- | --- | --- | --- |
@@ -15,6 +52,10 @@
 | $\kappa$ | \kappa | $\chi$ | \chi |
 | $\lambda$ | \lambda | $\psi$ | \psi |
 | $\mu$ | \mu | $\omega$ | \omega |
+
+## Indices
+
+| $p^3_{ij}$ | p^3_{ij}|
 
 ## Flechas
 
@@ -74,8 +115,12 @@
 
 ## Operadores
 
+| Operador | LaTeX |
+| --- | --- |
 | $\pm$ | \pm |
 | $\mp$ | \mp |
+| $>$ | > |
+| $\geq$ | \geq |
 
 ##
 
@@ -133,6 +178,20 @@ Para agregar arugmentos hay que poner la cantidad entre [] y luego usar #1, #2, 
 para la cantidad de argumentos:
 
 `\newcommand{\bb}[1]{\textbf{#1}}`
+
+# Crear text box
+
+```latex
+\documentclass{article}
+\usepackage[]{mdframed}  % Para las cajas
+\begin{document}
+
+\begin{mdframed}
+Test
+\end{mdframed}
+
+\end{document}
+```
 
 # Extensiones de vscode
 
