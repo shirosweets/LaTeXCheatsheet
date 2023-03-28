@@ -44,6 +44,39 @@
 | $\supseteq$ | \subseteq | $$ | |
 | $$ | | $$ | |
 
+## Lógica y teoría de conjuntos
+
+| Cuantificador | LaTeX | Significado |
+| --- | --- | --- |
+| $\forall$ | \forall | Para todo |
+| $\exists$ | \exists | Existe |
+| $\exists!$ | \exists! | No existe |
+| $\in$ | \in | Pertenece |
+| $\in!$ | \in! | No pertenece |
+| $\ni$ | \ni | Pertenece |
+
+## Geometria
+
+| Cuantificador | LaTeX | Significado |
+| --- | --- | --- |
+| $\perp$ | \perp | Perpendicular |
+| $\not\perp$ | \not\perp | No perpendicular |
+| $\parallel$ | \parallel | Paralelo |
+| $\nparallel$ | \nparallel | No paralelo |
+| $\angle$ | \angle | Angulo |
+| $\measuredangle$ | \measuredangle | |
+
+##
+
+| $\Re$ | \Re |
+| $\mathbb{R}$ | \mathbb{R} |
+| $g \circ f$ | g \circ f |
+
+## Operadores
+
+| $\pm$ | \pm |
+| $\mp$ | \mp |
+
 ##
 
 | Operador | LaTeX |
