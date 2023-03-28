@@ -1,31 +1,57 @@
 # LaTeXCheatsheet
 
-| Letra | LaTeX |
+## Letras griegas minúsculas
+| Letra | LaTeX | Letra | LaTeX |
+| --- | --- | --- | --- |
+| $\alpha$ | \alpha | $\nu$ | \nu |
+| $\beta$ | \beta | $\xi$ | \xi |
+| $\gamma$ | \gamma | $\omicron$ | \omicron |
+| $\delta$ | \delta | $\pi$ | \pi |
+| $\epsilon$ | \epsilon | $\rho$ | \rho |
+| $\zeta$ | \zeta | $\sigma$ | \sigma |
+| $\eta$ | \eta | $\tau$ | \tau |
+| $\theta$ | \theta | $\upsilon$ | \upsilon |
+| $\iota$ | \iota | $\phi$ | \phi |
+| $\kappa$ | \kappa | $\chi$ | \chi |
+| $\lambda$ | \lambda | $\psi$ | \psi |
+| $\mu$ | \mu | $\omega$ | \omega |
+
+## Flechas
+
+| Flecha | LaTeX | Flecha | LaTeX |
+| --- | --- | --- | --- |
+| $\rightarrow$ | \rightarrow | $\Rightarrow$ | \Rightarrow |
+| $\leftarrow$ | \leftarrow | $\Leftarrow$ | \Leftarrow |
+| $\rightharpoonup$ | \rightharpoonup | $\Leftrightarrow$ | \Leftrightarrow |
+| $\leftharpoonup$ | \leftharpoonup | $\Longleftrightarrow$ | \Longleftrightarrow |
+
+## Operadores
+
+| Operador | LaTeX | Operador | LaTeX |
+| --- | --- | --- | --- |
+| $\sum$ | \sum | $\prod$ | \prod |
+| $\int$ | \int | $\coprod$ | \coprod |
+| $\bigcup$ | \bigcup | $\bigsqcup$ | \bigsqcup |
+| $\bigcap$ | \bigcap | $$ | |
+
+## Relaciones
+
+| Relacion | LaTeX | Relacion | LaTeX |
+| --- | --- | --- | --- |
+| $\subset$ | \subset | $$ | |
+| $\supset$ | \supset | $$ | |
+| $\subseteq$ | \subseteq | $$ | |
+| $\supseteq$ | \subseteq | $$ | |
+| $$ | | $$ | |
+
+##
+
+| Operador | LaTeX |
 | --- | --- |
-| $\alpha$ | \alpha |
-| $\beta$ | \beta |
-| $\gamma$ | \gamma |
-| $\delta$ | \delta |
-| $\epsilon$ | \epsilon |
-| $\zeta$ | \zeta |
-| $\eta$ | \eta |
-| $\theta$ | \theta |
-| $\iota$ | \iota |
-| $\kappa$ | \kappa |
-| $\lambda$ | \lambda |
-| $\mu$ | \mu |
-| $\nu$ | \nu |
-| $\xi$ | \xi |
-| $\omicron$ | \omicron |
-| $\pi$ | \pi |
-| $\rho$ | \rho |
-| $\sigma$ | \sigma |
-| $\tau$ | \tau |
-| $\upsilon$ | \upsilon |
-| $\phi$ | \phi |
-| $\chi$ | \chi |
-| $\psi$ | \psi |
-| $\omega$ | \omega |
+| $\lim_{x\to\infty}$ | \lim_{x\to\infty} |
+
+
+
 
 [**Aca**](https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols) hay una lista más detallada de letras griegas y símbolos matemáticos comunes
 
@@ -274,3 +300,9 @@ aca va el texto...
 
 \end{document}
 ```
+
+<!-- | $$ | | $$ | |
+| $$ | | $$ | |
+| $$ | | $$ | |
+| $$ | | $$ | |
+| $$ | | $$ | | -->
