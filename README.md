@@ -409,3 +409,72 @@ aca va el texto...
 | $$ | | $$ | |
 | $$ | | $$ | |
 | $$ | | $$ | | -->
+
+# Como hacer graficos
+
+Dependencia al principio del archivo:
+
+```latex
+\usepackage{tikz}
+```
+
+```latex
+\begin{center}
+\begin{tikzpicture}[node distance={25mm}, main/.style = {draw, circle}]
+    \node[main] (1) {$\source$};
+    \node[main] (2) [right of=1] {A};
+    \node[main] (3) [above right of=2] {B};
+    \node[main] (4) [below right of=2] {C};
+    \node[main] (5) [below right of=3] {D};
+    \node[main] (6) [right of=5] {$t$};
+    \draw[->] (1) -- node[midway, above, sloped, pos=0.5] {\small{C=30}} (2);
+    \draw[->] (2) -- node[midway, above, sloped, pos=0.5] {\small{C=10}} (3);
+    \draw[->] (2) -- node[midway, above, sloped, pos=0.5] {\small{C=10}} (4);
+    \draw[->] (3) -- node[midway, above, sloped, pos=0.5] {\small{C=10}} (5);
+    \draw[->] (4) -- node[midway, above, sloped, pos=0.5] {\small{C=10}} (5);
+    \draw[->] (5) -- node[midway, above, sloped, pos=0.5] {\small{C=15}} (6);
+\end{tikzpicture}
+\end{center}
+```
+
+Un ej mas simple:
+
+```latex
+\begin{center}
+\begin{tikzpicture}[node distance={15mm}, main/.style = {draw, circle}]
+    \node[main] (1) {$x_1$};
+    \node[main] (2) [above right of=1] {$x_2$};
+    \node[main] (3) [below right of=1] {$x_3$};
+    \node[main] (4) [above right of=3] {$x_4$};
+    \node[main] (5) [above right of=4] {$x_5$};
+    \node[main] (6) [below right of=4] {$x_6$};
+    \draw (2) -- (4);
+    \draw[->] (1) -- (2);
+\end{tikzpicture}
+\end{center}
+```
+
+Un ejemplo con lados curvos:
+
+```latex
+\begin{tikzpicture}[node distance={15mm}, thick, main/.style = {draw, circle}]
+    \node[main] (1) {$x_1$};
+    \node[main] (2) [above right of=1] {$x_2$};
+    \node[main] (3) [below right of=1] {$x_3$};
+    \node[main] (4) [above right of=3] {$x_4$};
+    \node[main] (5) [above right of=4] {$x_5$};
+    \node[main] (6) [below right of=4] {$x_6$};
+    \draw[->] (1) -- (2);
+    \draw[->] (1) -- (3);
+    \draw (1) to [out=135,in=90,looseness=1.5] (5);
+    \draw (1) to [out=180,in=270,looseness=5] (1);
+    \draw (2) -- (4);
+    \draw (3) -- (4);
+    \draw (5) -- (4);
+    \draw[->] (5) to [out=315, in=315, looseness=2.5] (3);
+    \draw[->] (6) -- node[midway, above right, sloped, pos=1] {+1} (4);
+\end{tikzpicture}
+```
+
+- Referencia: [Baeldung](https://www.baeldung.com/cs/latex-drawing-graphs)
+
