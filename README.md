@@ -2,6 +2,15 @@
 
 ## 
 
+| Conjunto | LaTeX | Significado |
+| --- | --- | --- |
+| $\mathbb{N}$| \mathbb{N} | Numeros Naturales |
+| $\mathbb{Z}$| \mathbb{Z} | Numeros Enteros |
+| $\mathbb{Q}$| \mathbb{Q} | Numeros Racionales |
+| $\mathbb{I}$| \mathbb{I} | Numeros Irracionales |
+| $\mathbb{R}$| \mathbb{R} | Numeros Reales |
+| $\mathbb{C}$| \mathbb{C} | Numeros Complejos |
+
 | Operador | LaTeX | Significado |
 | --- | --- | --- |
 | $\cdot$ | \cdot | Signo de multiplicacion |
@@ -83,7 +92,8 @@
 | $\supset$ | \supset | $$ | |
 | $\subseteq$ | \subseteq | $$ | |
 | $\supseteq$ | \subseteq | $$ | |
-| $$ | | $$ | |
+| $\Cup$ | \Cup | $$ | |
+| $\cup$ | \cup | $$ | |
 
 ## Lógica y teoría de conjuntos
 
@@ -121,6 +131,7 @@
 | $\mp$ | \mp |
 | $>$ | > |
 | $\geq$ | \geq |
+| $ \leq$ | \leq |
 
 ##
 
